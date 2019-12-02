@@ -22,11 +22,11 @@ $$
 
 Frank-Wolfe是一种非常简单的算法，给定初始假设值$x_0$构造一系列估计值$\boldsymbol{x}_1, \boldsymbol{x}_2, \ldots$。它们会收敛于优化问题的解。该算法定义如下：
 
-![Frank-Wolfe algorithm](E:\GitHub\BlueCasval.github.io\img\frank-wolf.png)
+![Frank-Wolfe algorithm](img/frank-wolf.png)
 
 与其他受约束的优化算法（例如投影梯度下降）相反，Frank-Wolfe算法不需要进行投影，因此为什么有时将其称为无投影算法。算法[示意图](https://twitter.com/gabrielpeyre/status/945210545166258176)如下：
 
-![Frank-Wolfe algorithm on a toy problem](E:\GitHub\BlueCasval.github.io\img\FW_iterates.png)
+![Frank-Wolfe algorithm on a toy problem](img/FW_iterates.png)
 
 Frank-Wolfe算法主要分为两个部分，第一部分为解决定义域上的线性问题
 $$
